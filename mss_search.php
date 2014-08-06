@@ -146,7 +146,7 @@ function spanOrder($sort, $order, $thisSpan) {
         }
       }
       if ( $result['bookingservices_str'] == 1 ) {// venere
-        $book = "<iframe class=\"card\" src='" . $result['permalink'] . '?iframe=1\' ></iframe>';
+        $book = "<iframe class=\"card\" src='" . str_replace('http://','//',$result['permalink']) . '?iframe=0\' ></iframe>';
 
 
         // if ( isset( $_GET['debug'])) {print print_r($min_price ,1); }
