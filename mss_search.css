@@ -85,6 +85,7 @@ label.solr_response {
 div.solr3 {
 	float: left !important;
 	padding: 18px 2% 0 0 !important;
+        max-width: 160px;
 	/*Width on left of search results
 	width: 25% !important;
 	*/
